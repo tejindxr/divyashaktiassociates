@@ -6,12 +6,14 @@ import Services from "../components/services";
 import Credentials from "../components/credentials";
 import Contact from "../components/contact";
 import Footer from "../components/footer";
+import DirectorSection from "../components/director";
 
 const HomePage = () => {
   return (
     <>
       <Header />
       <Hero />
+      <DirectorSection/>
       <About />
       <Services />
       <Credentials />

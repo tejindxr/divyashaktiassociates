@@ -2,16 +2,40 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <section id="contact" className="section gray">
-      <h2>Contact Us</h2>
+    <section id="contact" className="contact-section">
+      <div className="contact-container">
+        <h2>Get in Touch</h2>
+        <p className="contact-intro">
+          We welcome inquiries related to projects, partnerships, and professional
+          collaborations. Reach out to us using the details below.
+        </p>
 
-      <p><b>Office Address:</b><br/>8-A, Pocket-D, Deep Enclave, Ashok Vihar Phase-III, Delhi 110052</p>
-      <p><b>Email:</b> divya.shakti0@gmail.com</p>
-      <p><b>Phone:</b> 011-43024533</p>
+        <div className="contact-details">
+          <div>
+            <h4>Office Address</h4>
+            <p>
+              8-A, Pocket-D, Deep Enclave,<br />
+              Ashok Vihar Phase-III,<br />
+              Delhi – 110052
+            </p>
+          </div>
 
-      <div className="director-card">
-        <h3>Director – Amardeep Singh (Jolly)</h3>
-        <p>+91 97116-11650</p>
+          <div>
+            <h4>Email</h4>
+            <p>divya.shakti0@gmail.com</p>
+          </div>
+
+          <div>
+            <h4>Office Phone</h4>
+            <p>011-43024533</p>
+          </div>
+        </div>
+
+        <div className="contact-director">
+          <h3>Director</h3>
+          <p><strong>Amardeep Singh (Jolly)</strong></p>
+          <p>📞 +91 97116-11650</p>
+        </div>
       </div>
     </section>
   );

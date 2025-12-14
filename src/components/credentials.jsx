@@ -2,16 +2,36 @@ import React from "react";
 
 const Credentials = () => {
   return (
-    <section id="credentials" className="section">
-      <h2>Our Credentials</h2>
+    <section id="credentials" className="credentials-section">
+      <div className="credentials-container">
+        <h2>Our Credentials</h2>
+        <p className="credentials-subtitle">
+          A legacy built on trust, compliance, and consistent delivery.
+        </p>
 
-      <ul>
-        <li>Registered Government Contractor</li>
-        <li>39+ Years of Industry Experience</li>
-        <li>Completed 250+ Civil & Renovation Projects</li>
-        <li>ISO / MSME Registered</li>
-        <li>Verified PAN, GST & Company CIN</li>
-      </ul>
+        <ul className="credentials-list">
+          <li>
+            <span>✔</span>
+            Registered Government Contractor
+          </li>
+          <li>
+            <span>✔</span>
+            39+ Years of Industry Experience
+          </li>
+          <li>
+            <span>✔</span>
+            250+ Successfully Completed Civil & Renovation Projects
+          </li>
+          <li>
+            <span>✔</span>
+            ISO & MSME Registered Organization
+          </li>
+          <li>
+            <span>✔</span>
+            Verified PAN, GST & Company CIN
+          </li>
+        </ul>
+      </div>
     </section>
   );
 };
